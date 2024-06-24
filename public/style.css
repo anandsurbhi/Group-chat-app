@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.chatcontainer{
+    width:500px;
+    border:2px solid black;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding:20px;
+}
+
+.chat{
+    height:400px;
+    overflow-y:auto;
+}
+.input-container{
+display:flex;
+flex-direction: row;
+gap:10px;
+}
+
+.message{
+    margin:5px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sender{
+border:2px solid black;
+background-color:#d0f4de;
+
+}
+
+.receiver{
+border:2px solid black;
+background-color:#a9def9
+}
